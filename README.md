@@ -25,9 +25,10 @@ Click here to view the webpage: https://joseamesquita.github.io/calendar-day/
 
 Behavior | Input | Output |
 --- | --- | --- |
-allows users to choose a size | size: small | $6 
-allows users to choose a size and a topping | size: medium topping: Cheese | total is: $13 with toppings included
-allows users to choose a size and multiple toppings | size: large toppings: Chicken, Saussage, Pineapple | total is: $21 with toppings included 
+| user inputs non-numarical value| January 2, 2020 | Please input a numeric value for the given date |
+| user inputs a numeric value for the date separated with forward slash | 01/02/2020 | 04 | 
+| 04 is return given the user input date | 04 | Thursday |
+
 
 
 ## Known Bugs
@@ -36,7 +37,7 @@ _This application is under-developed and is currently improving._
 
 ## Support and contact details
 
-_email: joseamesquita11@gmail.com_
+_email: joseamesquita11@gmail.com, sommerh143@yahoo.com_
 
 ## Technologies Used
 
@@ -52,4 +53,4 @@ _email: joseamesquita11@gmail.com_
 
 *This is licensed by MIT.*
 
-Copyright (c) 2016 **_Jose Amesquita_**
+Copyright (c) 2016 **_Jose Amesquita & Sommer Howe_**
